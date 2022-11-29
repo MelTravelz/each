@@ -1,17 +1,24 @@
 # Task # 1
 
-# Take a look at this example.
-# 1. What do you think the output will be on line 14?
+# Take a look at this example:
+
+# 1. What do you think the output will be on line 14? 
+# richard, chris, dani
+
 # 2. Now run it in your terminal.
-# 3. Was the output what you thought it would be?
+
+# 3. Was the output what you thought it would be? 
+# yes (it called on the valirable 'names' only)
 
 names = ['richard', 'chris', 'dani']
+capitalized_names = []
 
 names.each do |name|
-  name.capitalize
+  capitalized_names << name.capitalize
 end
 
-p names
+p capitalized_names
+
 
 
 # Task # 2
